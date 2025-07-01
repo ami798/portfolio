@@ -1,6 +1,6 @@
 // src/components/Hero.jsx
 import React from "react";
-import "./Hero.css"; // optional: create a separate CSS file if needed
+
 
 function Hero() {
   return (
