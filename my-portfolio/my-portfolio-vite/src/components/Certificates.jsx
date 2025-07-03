@@ -3,7 +3,7 @@ import "../styles/Certificates.css";
 
 // Import all certificate images
 import cert1 from "../assets/certificates/codesoft.png";
-import cert2 from "../assets/certificates/certificate2.jpg";
+import cert2 from "../assets/certificates/hackathon.png";
 import cert3 from "../assets/certificates/certificate3.jpg";
 // Add all other certificates here
 
