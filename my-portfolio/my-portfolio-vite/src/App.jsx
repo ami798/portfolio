@@ -2,7 +2,8 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import Certificates from './components/Certificates'; // Import the Certificates component
+import Certificates from './components/Certificates';
+import Resume from './components/Resume'; // ✅ New resume section
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Certificates />  {/* Add the Certificates component here */}
+      <Certificates />
+      <Resume /> {/* ✅ This will display the download button */}
     </div>
   );
 }
