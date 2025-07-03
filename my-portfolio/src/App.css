@@ -46,3 +46,30 @@ body {
 .cta-button:hover {
   background-color: #0056b3;
 }
+/* About Section Styles */
+.about-section {
+  background-color: #181818;
+  color: #eee;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+  color: #ccc;
+}
