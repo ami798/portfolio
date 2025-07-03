@@ -8,7 +8,7 @@ import cert3 from "../assets/certificates/Proffesional-foundations-alx.png";
 import cert4 from "../assets/certificates/GDG-DSA.png";
 import cert5 from "../assets/certificates/python-bootcamp.png";
 import cert6 from "../assets/certificates/udacity-Data-analysis.png";
-import cert7 from "../assets/certificates/hackathon.png";
+import cert7 from "../assets/certificates/mesirat.png";
 import cert8 from "../assets/certificates/hackathon.png";
 import cert9 from "../assets/certificates/hackathon.png";
 import cert10 from "../assets/certificates/hackathon.png";
