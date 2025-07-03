@@ -11,7 +11,7 @@ import cert6 from "../assets/certificates/udacity-Data-analysis.png";
 import cert7 from "../assets/certificates/mesirat.png";
 import cert8 from "../assets/certificates/YALI-RLC-leadership.jpg";
 import cert9 from "../assets/certificates/winner-Q&A.jpg";
-import cert10 from "../assets/certificates/hackathon.png";
+import cert10 from "../assets/certificates/noble-character.jpg";
 import cert11 from "../assets/certificates/hackathon.png";
 import cert12 from "../assets/certificates/hackathon.png";
 import cert13 from "../assets/certificates/hackathon.png";
