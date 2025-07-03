@@ -4,7 +4,7 @@ import "../styles/Certificates.css";
 // Import all certificate images
 import cert1 from "../assets/certificates/codesoft.png";
 import cert2 from "../assets/certificates/hackathon.png";
-import cert3 from "../assets/certificates/certificate3.jpg";
+import cert3 from "../assets/certificates/Proffesional-foundations-alx.png";
 // Add all other certificates here
 
 function Certificates() {
