@@ -5,6 +5,19 @@ import "../styles/Certificates.css";
 import cert1 from "../assets/certificates/codesoft.png";
 import cert2 from "../assets/certificates/hackathon.png";
 import cert3 from "../assets/certificates/Proffesional-foundations-alx.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
+import cert2 from "../assets/certificates/hackathon.png";
 // Add all other certificates here
 
 function Certificates() {
