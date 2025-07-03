@@ -3,7 +3,8 @@ import "../styles/Contact.css";
 
 function Contact() {
   return (
-    <section className="contact-section" id="contact">
+    <section id="contact" className="contact-section">
+
       <h2 className="contact-title">Contact Me</h2>
       <p className="contact-text">Feel free to reach out for opportunities, questions or collaborations!</p>
 

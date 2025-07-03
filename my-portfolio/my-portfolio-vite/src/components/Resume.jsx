@@ -3,7 +3,8 @@ import "../styles/Resume.css";
 
 function Resume() {
   return (
-    <section className="resume-section" id="resume">
+    <section id="resume" className="resume-section">
+
       <h2 className="resume-title">My Resume</h2>
       <p className="resume-text">Click the button below to download my resume in PDF format.</p>
       <a

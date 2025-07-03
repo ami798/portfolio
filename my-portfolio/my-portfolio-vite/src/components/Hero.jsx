@@ -3,7 +3,8 @@ import React from 'react';
 
 function Hero() {
   return (
-    <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white text-center px-4">
+    <section id="hero" className="hero-section">
+
       <h1 className="text-4xl md:text-6xl font-bold mb-4">Hi, I’m Amira</h1>
       <p className="text-lg md:text-2xl mb-6">
         Frontend Developer | UI/UX Designer | Software Engineer

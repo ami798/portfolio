@@ -25,7 +25,8 @@ function Certificates() {
   const certificates = [cert1, cert2, cert3 ,cert4 , cert5 , cert6 , cert7 , cert8 , cert9 , cert10 , cert11 , cert12 , cert13 , cert14 , cert15 , cert16 ];  // Add all your certificates to this array
 
   return (
-    <section className="certificates-section" id="certificates">
+    <section id="certificates" className="certificates-section">
+
       <h2 className="certificates-title">Certificates</h2>
       <div className="certificates-grid">
         {certificates.map((certificate, index) => (
