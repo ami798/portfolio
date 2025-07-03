@@ -5,22 +5,22 @@ function Contact() {
   return (
     <section className="contact-section" id="contact">
       <h2 className="contact-title">Contact Me</h2>
-      <p className="contact-text">Feel free to reach out for opportunities, questions, or collaborations!</p>
+      <p className="contact-text">Feel free to reach out for opportunities, questions or collaborations!</p>
 
       <div className="contact-icons">
-        <a href="mailto:amira.dev@example.com" target="_blank" rel="noopener noreferrer">
+        <a href="amiraabdurahman8@gmail.com" target="_blank" rel="noopener noreferrer">
           📧 Email
         </a>
-        <a href="https://github.com/amira-dev" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/ami798" target="_blank" rel="noopener noreferrer">
           💻 GitHub
         </a>
-        <a href="https://linkedin.com/in/amira-dev" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/amira-abdurahman-282704298/" target="_blank" rel="noopener noreferrer">
           🔗 LinkedIn
         </a>
-        <a href="https://wa.me/2519XXXXXXXX" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/251923471699" target="_blank" rel="noopener noreferrer">
           💬 WhatsApp
         </a>
-        <a href="tel:+2519XXXXXXXX">
+        <a href="tel:+251923471699">
           ☎️ Phone
         </a>
       </div>
