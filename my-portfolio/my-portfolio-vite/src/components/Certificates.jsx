@@ -17,7 +17,7 @@ import cert12 from "../assets/certificates/volunteer2.jpg";
 import cert13 from "../assets/certificates/HS-diploma.jpg";
 import cert14 from "../assets/certificates/appreciation.jpg";
 import cert15 from "../assets/certificates/leadership-workshop.jpg";
-import cert16 from "../assets/certificates/hackathon.png";
+import cert16 from "../assets/certificates/kibur-college.jpg";
 // Add all other certificates here
 
 function Certificates() {
