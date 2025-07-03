@@ -3,7 +3,8 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Certificates from './components/Certificates';
-import Resume from './components/Resume'; // ✅ Added this
+import Resume from './components/Resume';
+import Contact from './components/Contact'; // ✅ New section
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Skills />
       <Projects />
       <Certificates />
-      <Resume /> {/* ✅ This shows the download button */}
+      <Resume />
+      <Contact /> {/* ✅ Now included */}
     </div>
   );
 }
