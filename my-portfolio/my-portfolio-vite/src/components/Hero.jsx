@@ -1,45 +1,12 @@
 // src/components/Hero.jsx
-import React from 'react';
-import { motion } from 'framer-motion';
-import './Hero.css';
-import avatar from '../assets/avatar.png'; // replace with your own
+import React from "react";
+import "./Hero.css";
+import avatar from "../assets/avatar.png"; // Make sure this file exists
 
 function Hero() {
   return (
     <section className="hero">
-      <div className="hero-left">
-        <motion.h1
-          initial={{ opacity: 0, y: -30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-        >
-          Hi, I’m <span className="highlight">Amira</span>
-        </motion.h1>
-        <motion.p
-          className="typewriter"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.8, duration: 1 }}
-        >
-          I'm a Frontend Developer | UI/UX Designer | Software Engineer
-        </motion.p>
-
-        <div className="social-icons">
-          <a href="https://github.com" target="_blank">GitHub</a>
-          <a href="https://linkedin.com" target="_blank">LinkedIn</a>
-          <a href="https://t.me" target="_blank">Telegram</a>
-        </div>
-      </div>
-
-      <motion.div
-        className="hero-right"
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1 }}
-      >
-        <img src={avatar} alt="Amira" />
-      </motion.div>
-
+      {/* Top-right resume button */}
       <a
         href="/resume.pdf"
         className="resume-button"
@@ -48,6 +15,27 @@ function Hero() {
       >
         📄 Get My CV
       </a>
+
+      {/* Left side content */}
+      <div className="hero-left">
+        <h1>
+          Hi, I’m <span className="highlight">Amira</span>
+        </h1>
+        <p className="typewriter">
+          Frontend Developer | UI/UX Designer | Software Engineer
+        </p>
+
+        <div className="social-icons">
+          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://t.me/" target="_blank" rel="noreferrer">Telegram</a>
+        </div>
+      </div>
+
+      {/* Right side avatar */}
+      <div className="hero-right">
+        <img src={avatar} alt="Amira" />
+      </div>
     </section>
   );
 }
