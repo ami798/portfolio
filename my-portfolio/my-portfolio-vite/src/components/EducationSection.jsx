@@ -34,7 +34,7 @@ I'm currently a second-year Software Engineering student focused on building a s
         <h3>Nejashi Academy</h3>
         <span className="edu-date">2016 – 2023</span>
       </div>
-      <p className="edu-degree">Secondary Diploma</p>
+      <p className="edu-degree">High School Diploma</p>
       <p className="edu-desc">
         Completed my secondary education with distinction. Built a disciplined academic foundation, developed time management skills, and fostered a curiosity for technology and innovation that drives my current learning journey.
       </p>
