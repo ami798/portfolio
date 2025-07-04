@@ -33,3 +33,16 @@ section {
     transform: translateY(0);
   }
 }
+/* Force light background on key sections */
+.about-section,
+.certificates-section,
+.projects-section,
+.footer {
+  background-color: white !important;
+  color: #111 !important;
+}
+
+/* Optional fade-in animation class already defined */
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}

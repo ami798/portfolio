@@ -2,60 +2,47 @@ import React from "react";
 import "./EducationSection.css";
 
 function EducationSection() {
-  return (
-    <div className="education-section">
-      <h2 className="section-title">Education</h2>
-      <div className="timeline">
-        <div className="timeline-item">
-          <div className="timeline-date">2019 – 2024</div>
-          <div className="timeline-content">
-            <h3>Addis Ababa Science and Tech University</h3>
-            <p><strong>Software Engineering Degree</strong></p>
-            <p>
-              My years in AASTU is one of the most profound years of my life. It was during my campus
-              years I’ve built most of my projects and participated in clubs and events. I’ve made some
-              incredible memories in there and learnt so much and the current version of me was very
-              much shaped because of it.
-            </p>
-          </div>
-        </div>
-        <div className="timeline-item">
-          <div className="timeline-date">2020 – 2024</div>
-          <div className="timeline-content">
-            <h3>Unity University</h3>
-            <p><strong>Management Degree</strong></p>
-            <p>
-              While learning my software engineering degree in AASTU, I was learning Management in Unity
-              as a distance student. It is a very interesting subject that has accounting, marketing,
-              leadership and more.
-            </p>
-          </div>
-        </div>
-        <div className="timeline-item">
-          <div className="timeline-date">2018 – 2019</div>
-          <div className="timeline-content">
-            <h3>Lebawi International Academy</h3>
-            <p><strong>High School Diploma</strong></p>
-            <p>
-              These few years were some of my favorite years in school where I had to start as new and
-              ready myself for what is coming.
-            </p>
-          </div>
-        </div>
-        <div className="timeline-item">
-          <div className="timeline-date">2010 – 2018</div>
-          <div className="timeline-content">
-            <h3>Bahir Dar Academy</h3>
-            <p><strong>Middle and High School</strong></p>
-            <p>
-              These were some of the years that shaped my teenage years and befriended some of my life
-              long friends. It is also where I discovered programming.
-            </p>
-          </div>
-        </div>
+return (
+<div className="education-section" id="education">
+<h2 className="section-title">Education</h2>
+<div className="education-cards">
+<div className="edu-card fade-in">
+<div className="edu-header">
+<h3>Addis Ababa Science and Tech University</h3>
+<span className="edu-date">2024 – 2028</span>
+</div>
+<p className="edu-degree">Software Engineering</p>
+<p className="edu-desc">
+I'm currently a second-year Software Engineering student focused on building a strong foundation in full-stack web development. I’m actively learning modern technologies and best practices while working on real-world projects to sharpen my problem-solving and coding skills. Passionate about clean code, responsive design, and continuous improvement, I'm committed to growing as a developer and contributing to meaningful tech solutions.
+</p>
+</div>
+
+
+    <div className="edu-card fade-in">
+      <div className="edu-header">
+        <h3>MS-League</h3>
+        <span className="edu-date">2024 – 2027</span>
       </div>
+      <p className="edu-degree">Leadership</p>
+      <p className="edu-desc">
+        I’m currently studying Leadership at MS-League, where I’m developing skills in strategic thinking, organizational management, and communication to strengthen my future leadership capabilities in tech environments.
+      </p>
     </div>
-  );
+
+    <div className="edu-card fade-in">
+      <div className="edu-header">
+        <h3>Nejashi Academy</h3>
+        <span className="edu-date">2016 – 2023</span>
+      </div>
+      <p className="edu-degree">Secondary Diploma</p>
+      <p className="edu-desc">
+        Completed my secondary education with distinction. Built a disciplined academic foundation, developed time management skills, and fostered a curiosity for technology and innovation that drives my current learning journey.
+      </p>
+    </div>
+  </div>
+</div>
+);
 }
 
 export default EducationSection;
+
