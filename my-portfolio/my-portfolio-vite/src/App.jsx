@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from 'react';
-import Navbar from './components/Navbar';
+
 import Sidebar from './components/Sidebar'; // we'll add this
 import Hero from './components/Hero';
 import About from './components/About';
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app-container">
       <Sidebar /> {/* left vertical navigation */}
-      <Navbar />   {/* top navigation with Resume button */}
+      
       <main>
         <Hero />
         <About />

@@ -13,7 +13,7 @@ function Hero() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        📄 Get My CV
+        📄 Resume
       </a>
 
       {/* Left side content */}
