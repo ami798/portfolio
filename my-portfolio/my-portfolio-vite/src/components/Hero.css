@@ -1,11 +1,10 @@
-/* src/components/Hero.css */
 .hero {
   height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
-  background: white;
+  background: #fff;
   position: relative;
 }
 
@@ -19,7 +18,7 @@
   color: #1a202c;
 }
 
-.hero-left .highlight {
+.highlight {
   color: #4f46e5;
 }
 
@@ -31,7 +30,6 @@
 
 .hero-right img {
   height: 350px;
-  width: auto;
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
