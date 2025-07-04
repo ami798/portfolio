@@ -1,21 +1,28 @@
+// src/App.jsx
 import React from 'react';
 import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar'; // we'll add this
 import Hero from './components/Hero';
 import About from './components/About';
 import Projects from './components/Projects';
 import Certificates from './components/Certificates';
 import Footer from './components/Footer';
 
+import './styles/global.css'; // make sure global styles are applied
+
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Certificates />
-      <Footer />
-    </>
+    <div className="app-container">
+      <Sidebar /> {/* left vertical navigation */}
+      <Navbar />   {/* top navigation with Resume button */}
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Certificates />
+        <Footer />
+      </main>
+    </div>
   );
 }
 
