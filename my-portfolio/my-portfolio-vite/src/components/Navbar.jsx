@@ -1,19 +1,32 @@
-import React from "react";
-import "../styles/Navbar.css";
+import React from 'react';
+import ThemeToggle from './ThemeToggle';
+import './Navbar.css';
 
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">Amira</div>
-      <ul className="navbar-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certificates">Certificates</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div className="nav-left">
+        <a href="#hero" className="logo">Amira</a>
+      </div>
+
+      <div className="nav-center">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div className="nav-right">
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-button"
+        >
+          Resume
+        </a>
+        <ThemeToggle />
+      </div>
     </nav>
   );
 }
