@@ -33,3 +33,8 @@
 .certificate-image:hover {
   transform: scale(1.03);
 }
+.certificates-section {
+  background-color: white;
+  color: #111;
+  padding: 60px 20px;
+}

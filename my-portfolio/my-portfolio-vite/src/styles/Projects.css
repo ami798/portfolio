@@ -55,3 +55,8 @@
 .project-card a:hover {
   color: var(--primary-dark);
 }
+.projects-section {
+  background-color: white;
+  color: #111;
+  padding: 60px 20px;
+}

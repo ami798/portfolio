@@ -1,28 +1,15 @@
+// src/components/About.jsx
 import React from "react";
-import "../styles/About.css"; // Ensure your CSS is correctly linked
+import "./About.css";
 
 function About() {
   return (
-    <section id="about" className="about-section">
-      <div className="about-container fade-in">
-        <img
-          src="/amira-photo.png"
-          alt="Amira"
-          className="about-photo"
-        />
-        <div className="about-text">
-          <h2>About Me</h2>
-          <p>
-            I’m Amira, a passionate Frontend Developer and UI/UX Designer. I build
-            responsive, user-first web experiences using React, Vite, and modern tools.
-          </p>
-          <p>
-            Currently studying Software Engineering at AASTU and leading the
-            Da’ewa department in the Muslim Students League. Fluent in English,
-            Amharic, and Arabic. Let’s create something amazing together!
-          </p>
-        </div>
-      </div>
+    <section id="about" className="about-section fade-in">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate full-stack developer who thrives on creating clean, efficient, and scalable applications.
+        With experience in a variety of technologies and a deep curiosity for learning, I consistently strive to deliver quality software and innovate in every project I contribute to.
+      </p>
     </section>
   );
 }
