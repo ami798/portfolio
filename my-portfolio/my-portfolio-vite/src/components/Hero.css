@@ -1,0 +1,62 @@
+/* src/components/Hero.css */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  background: white;
+  position: relative;
+}
+
+.hero-left {
+  max-width: 50%;
+}
+
+.hero-left h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #1a202c;
+}
+
+.hero-left .highlight {
+  color: #4f46e5;
+}
+
+.typewriter {
+  font-size: 1.5rem;
+  color: #4a5568;
+  margin-bottom: 20px;
+}
+
+.hero-right img {
+  height: 350px;
+  width: auto;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.resume-button {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background: linear-gradient(to right, #7f5af0, #5eead4);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 5px 15px rgba(127, 90, 240, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.resume-button:hover {
+  transform: scale(1.05);
+}
+
+.social-icons a {
+  margin-right: 20px;
+  color: #4f46e5;
+  font-weight: bold;
+  text-decoration: none;
+}
