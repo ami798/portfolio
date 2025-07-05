@@ -65,7 +65,7 @@ const experiences = [
     date: "2024 – Present",
     icon: <Users className="text-lime-500 w-6 h-6" />,
     description:
-      "Organized spiritual events, book reviews, and long-term intensive youth training programs."
+      "Organized spiritual events, book reviews,Podcast hosting and long-term intensive youth training programs."
   },
   {
     title: "Freelancer (UI/UX, Web Dev, Design)",
@@ -73,7 +73,7 @@ const experiences = [
     date: "2025 – Present",
     icon: <Code2 className="text-violet-500 w-6 h-6" />,
     description:
-      "Worked as a freelancer providing services in UI/UX design, web development, video editing, and more."
+      "Worked as a freelancer providing services in UI/UX design, web development, video editing and more."
   }
 ];
 
