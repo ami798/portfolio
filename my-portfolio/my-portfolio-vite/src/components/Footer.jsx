@@ -7,13 +7,13 @@ function Footer() {
       <div className="footer-content">
         <p>&copy; 2025 Amira. All Rights Reserved.</p>
         <div className="footer-links">
-          <a href="https://github.com/amira-dev" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/ami798" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/amira-dev" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/amira-abdurahman-282704298/" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
-          <a href="mailto:amira.dev@example.com">Email</a>
+          <a href="amiraabdurahman8@gmail.com">Email</a>
         </div>
       </div>
     </footer>

@@ -1,20 +1,24 @@
 /* src/components/Hero.css */
 .hero {
-  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 5%;
   background: white;
   position: relative;
+  height: auto;
+  min-height: 90vh;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .hero-left {
-  max-width: 50%;
+  max-width: 55%;
+  flex: 1;
 }
 
 .hero-left h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1rem;
   color: #1a202c;
 }
@@ -24,15 +28,52 @@
 }
 
 .typewriter {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #4a5568;
   margin-bottom: 20px;
 }
 
+/* Social icon styles */
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #4f46e5;
+  color: white;
+  transform: scale(1.05);
+}
+
+.hero-right {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-right img {
-  height: 350px;
+  height: 280px;
   width: auto;
   border-radius: 20px;
+  object-fit: cover;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -54,10 +95,18 @@
   transform: scale(1.05);
 }
 
-/* Social links basic setup */
-.social-icons a {
-  margin-right: 20px;
-  color: #4f46e5;
-  font-weight: bold;
-  text-decoration: none;
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-left,
+  .hero-right {
+    max-width: 100%;
+  }
+
+  .hero-right {
+    justify-content: flex-start;
+  }
 }
