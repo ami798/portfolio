@@ -23,7 +23,7 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Hi, I'm <span className="highlight">Amira Abdurahman</span>
+          <span className="highlight">Amira Abdurahman</span>
         </motion.h1>
 
         <motion.p
@@ -38,11 +38,11 @@ function Hero() {
         <div className="social-icons">
           <a href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
           <a href="https://www.linkedin.com/in/amira-abdurahman-282704298/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-          <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          <a href="mailto:youremail@example.com"><MdEmail /></a>
-          <a href="tel:+251900000000"><FaPhone /></a>
+          <a href="https://www.instagram.com/amiprin7" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+          <a href="https://x.com/amiprin7" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+          <a href="https://github.com/ami798" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+          <a href="mailto:amiraabdurahman8@gmail.com"><MdEmail /></a>
+          <a href="tel:+251923471699"><FaPhone /></a>
           <a href="https://discord.com/users/yourdiscordid" target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
         </div>
       </div>
