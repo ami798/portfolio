@@ -1,43 +1,88 @@
-// src/components/Hero.jsx
 import React from "react";
-import "./Hero.css";
-import avatar from "../assets/avatar.png"; // Make sure this file exists
+import {
+Send,
+Linkedin,
+Instagram,
+Twitter,
+Github,
+Mail,
+Phone,
+} from "lucide-react";
+import "./HeroSection.css"; // Optional: for extra styling if you want
 
-function Hero() {
-  return (
-    <section className="hero">
-      {/* Top-right resume button */}
-      <a
-        href="/resume.pdf"
-        className="resume-button"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        📄 Resume
-      </a>
+function HeroSection() {
+return (
+<section id="home" className="min-h-screen flex flex-col items-center justify-center bg-white px-6 text-gray-900" >
+<div className="text-center max-w-3xl">
+<h1 className="text-4xl md:text-6xl font-bold leading-tight mb-4">
+Hello, I’m Amira 👋
+</h1>
+<p className="text-lg md:text-xl text-gray-700 mb-6">
+A purpose-driven tech enthusiast passionate about building beautiful
+digital experiences, designing solutions, and leading with impact.
+</p>
+</div>
 
-      {/* Left side content */}
-      <div className="hero-left">
-        <h1>
-          Hi, I’m <span className="highlight">Amira</span>
-        </h1>
-        <p className="typewriter">
-          Frontend Developer | UI/UX Designer | Software Engineer
-        </p>
-
-        <div className="social-icons">
-          <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://t.me/" target="_blank" rel="noreferrer">Telegram</a>
-        </div>
-      </div>
-
-      {/* Right side avatar */}
-      <div className="hero-right">
-        <img src={avatar} alt="Amira" />
-      </div>
-    </section>
-  );
+php-template
+Copy
+Edit
+  {/* Contact Icons */}
+  <div className="flex flex-wrap justify-center gap-5 mt-4">
+    <a
+      href="mailto:your@email.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Email"
+    >
+      <Send className="w-6 h-6 hover:text-violet-600 transition duration-200" />
+    </a>
+    <a
+      href="https://linkedin.com/in/your-profile"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+    >
+      <Linkedin className="w-6 h-6 hover:text-blue-600 transition duration-200" />
+    </a>
+    <a
+      href="https://instagram.com/your-profile"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Instagram"
+    >
+      <Instagram className="w-6 h-6 hover:text-pink-500 transition duration-200" />
+    </a>
+    <a
+      href="https://twitter.com/your-profile"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Twitter"
+    >
+      <Twitter className="w-6 h-6 hover:text-sky-500 transition duration-200" />
+    </a>
+    <a
+      href="https://github.com/your-profile"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="GitHub"
+    >
+      <Github className="w-6 h-6 hover:text-black transition duration-200" />
+    </a>
+    <a
+      href="mailto:your@email.com"
+      aria-label="Mail"
+    >
+      <Mail className="w-6 h-6 hover:text-rose-500 transition duration-200" />
+    </a>
+    <a
+      href="tel:+251900000000"
+      aria-label="Phone"
+    >
+      <Phone className="w-6 h-6 hover:text-green-600 transition duration-200" />
+    </a>
+  </div>
+</section>
+);
 }
 
-export default Hero;
+export default HeroSection;
