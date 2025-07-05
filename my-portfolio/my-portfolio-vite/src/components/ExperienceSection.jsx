@@ -11,6 +11,7 @@ const experiences = [
     description:
       "Founded and actively led several volunteer initiatives in high school including blood donation, school cleanups, financial aid drives, tutoring, and community development projects."
   },
+
   {
     title: "Student Ambassador",
     org: "YALI RLC Ethiopia",
@@ -19,6 +20,7 @@ const experiences = [
     description:
       "Completed an intensive 1-year leadership and mentorship training, representing YALI’s American Chapter in Ethiopia and engaging in community-focused youth development."
   },
+
   {
     title: "Remote Learner",
     org: "A2SV Community",
@@ -27,14 +29,16 @@ const experiences = [
     description:
       "Hands-on learning in data structures, algorithms, and LeetCode practice with real-time peer collaboration."
   },
+
   {
     title: "Technical Core + DSA Mentor",
-    org: "NSDA",
+    org: "Nejm Student Developers Association",
     date: "2025 – Present",
     icon: <Monitor className="text-yellow-500 w-6 h-6" />,
     description:
       "Mentored peers in DSA, managed technical sessions, built time management and team leadership skills."
   },
+
   {
     title: "Frontend Developer (Core Team)",
     org: "Proghubs - AASTU",
@@ -43,6 +47,7 @@ const experiences = [
     description:
       "Collaborated on projects aligned with company needs and developed websites for volunteer work."
   },
+
   {
     title: "Web Development Intern",
     org: "CODSOFT",
@@ -51,6 +56,7 @@ const experiences = [
     description:
       "Completed 1-month remote internship focused on practical web development skills."
   },
+
   {
     title: "Summer Intern (Web + Systems)",
     org: "GIV-Ethiopia NGO",
@@ -59,6 +65,7 @@ const experiences = [
     description:
       "Participated in digitizing systems and building organizational websites with a developer team."
   },
+
   {
     title: "Daewa Department Head",
     org: "MS-League",
@@ -67,6 +74,16 @@ const experiences = [
     description:
       "Organized spiritual events, book reviews,Podcast hosting and long-term intensive youth training programs."
   },
+
+  {
+title: "Hackathon & Product Building",
+org: "SheCodes-AASTU",
+date: "2025",
+icon: <Code2 className="text-violet-500 w-6 h-6" />,
+description:
+"Completed a 4-month intensive Python training as part of the SheCodes-AASTU program, followed by a competitive hackathon. Collaborated with a team to build AllyNet - a digital platform that empowers and connects women through shared learning, community support and inclusive tech solutions. The project earned strong recognition for innovation and impact. Gained hands-on experience in full-cycle product development including UI/UX, backend integration and community focused design."
+},
+
   {
     title: "Freelancer (UI/UX, Web Dev, Design)",
     org: "Upwork & AfriWork",
@@ -75,6 +92,7 @@ const experiences = [
     description:
       "Worked as a freelancer providing services in UI/UX design, web development, video editing and more."
   }
+
 ];
 
 export default function ExperienceSection() {
