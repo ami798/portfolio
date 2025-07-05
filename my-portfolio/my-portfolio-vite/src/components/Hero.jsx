@@ -36,14 +36,14 @@ function Hero() {
         </motion.p>
 
         <div className="social-icons">
-          <a href="https://t.me/yourtelegram" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
+          <a href="https://t.me/amiprin7" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
           <a href="https://www.linkedin.com/in/amira-abdurahman-282704298/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           <a href="https://www.instagram.com/amiprin7" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
           <a href="https://x.com/amiprin7" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
           <a href="https://github.com/ami798" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
           <a href="mailto:amiraabdurahman8@gmail.com"><MdEmail /></a>
           <a href="tel:+251923471699"><FaPhone /></a>
-          <a href="https://discord.com/users/yourdiscordid" target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
+          <a href="https://discord.com/users/amiprin7_45524" target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
         </div>
       </div>
 
