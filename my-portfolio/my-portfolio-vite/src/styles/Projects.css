@@ -1,62 +1,117 @@
-/* Projects.css */
 .projects-section {
-  background-color: var(--bg-dark);
-  color: var(--text-light);
-  padding: 80px 20px;
-  text-align: center;
+background-color: white;
+color: #111;
+padding: 60px 20px;
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects-section h2 {
+font-size: 2.5rem;
+margin-bottom: 40px;
+color: #000;
 }
 
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 30px;
-  margin-top: 40px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 30px;
+margin-bottom: 50px;
 }
 
 .project-card {
-  background: #222;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+background: #1e1e1e;
+color: #fff;
+width: 300px;
+border-radius: 16px;
+overflow: hidden;
+padding: 20px;
+box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
+transform: translateY(-8px);
+box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
 .project-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
+width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 12px;
 }
 
 .project-card h3 {
-  font-size: 1.5rem;
-  margin-top: 15px;
+font-size: 1.4rem;
+margin-top: 15px;
+color: #fff;
 }
 
 .project-card p {
-  color: var(--text-muted);
-  font-size: 1rem;
-  margin-top: 10px;
+font-size: 0.95rem;
+margin-top: 10px;
+color: #ccc;
 }
 
 .project-card a {
-  color: var(--primary);
-  text-decoration: none;
-  font-weight: bold;
-  margin-top: 15px;
-  display: inline-block;
+color: #4fc3f7;
+font-weight: bold;
+margin-top: 15px;
+display: inline-block;
+text-decoration: none;
+transition: color 0.3s ease;
 }
 
 .project-card a:hover {
-  color: var(--primary-dark);
+color: #03a9f4;
 }
-.projects-section {
-  background-color: white;
-  color: #111;
-  padding: 60px 20px;
+
+/* Other Projects Section */
+.other-projects {
+margin-top: 40px;
+padding-top: 20px;
+border-top: 1px solid #ccc;
+}
+
+.other-projects h4 {
+font-size: 1.8rem;
+margin-bottom: 20px;
+color: #000;
+}
+
+.other-projects p {
+color: #444;
+font-size: 1rem;
+margin-bottom: 15px;
+}
+
+.other-projects ul {
+list-style: none;
+padding: 0;
+}
+
+.other-projects li {
+margin-bottom: 10px;
+}
+
+.other-projects a {
+color: #0077cc;
+font-weight: 500;
+text-decoration: none;
+}
+
+.other-projects a:hover {
+text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+.project-card {
+width: 90%;
+}
 }
