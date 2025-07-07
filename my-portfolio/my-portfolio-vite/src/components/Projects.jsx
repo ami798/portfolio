@@ -1,12 +1,12 @@
 import React from "react";
-import "../styles/Projects.css"; // Ensure your CSS is correctly linked
+import "../styles/Projects.css"; 
 
 const projects = [
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio built using React, showcasing my skills and projects.",
-    link: "https://your-portfolio-link.com",
-    img: "/assets/images/project1.jpg",
+    title: "Chocolate-Bliss ",
+    description: "A modern, responsive web application for a cake cafe featuring a beautiful UI, interactive search functionality and smooth animations. Built with vanilla JavaScript and Tailwind CSS.",
+    link: "https://github.com/ami798/Chocolate-Bliss",
+    img: "public/project2.png",
   },
   {
     title: "E-commerce Website",
