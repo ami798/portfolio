@@ -7,28 +7,28 @@ const projects = [
     description:
       "A modern, responsive web application for a cake cafe featuring a beautiful UI, interactive search functionality and smooth animations. Built with vanilla JavaScript and Tailwind CSS.",
     link: "https://github.com/ami798/Chocolate-Bliss",
-    img: "public/project2.png",
+    img: "/project2.png",
   },
   {
     title: "Restaurant App",
     description:
       "A simple front-end web app for the Little Lemon Restaurant. Built using React, Vite and React Router.",
     link: "https://github.com/ami798/Little-Lemon-App.git",
-    img: "public/project4.png",
+    img: "/project4.png",
   },
   {
     title: "Mela Software",
     description:
       "A visually engaging landing page designed for Mela Software. Built with HTML, Tailwind CSS, and JavaScript. It features scroll effects, testimonials, and highlights product features.",
     link: "https://github.com/ami798/web-contest.git",
-    img: "public/project1.png",
+    img: "/project1.png",
   },
   {
     title: "Ally-Net",
     description:
       "AllyNet is a digital platform developed for a hackathon to foster inclusion and community support. Built with collaboration in mind and aims to empower users through meaningful engagement.",
     link: "https://github.com/ami798/She-Codes-Hackathon.git",
-    img: "public/project3.png",
+    img: "/project3.png",
   },
 ];
 
