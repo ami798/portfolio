@@ -32,7 +32,7 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 1 }}
         >
-          Aspiring Full-stack developer | UI/UX Designer | Software Engineer | Graphics Designer
+          Aspiring Full-stack developer | UI/UX Designer | Graphics Designer
         </motion.p>
 
         <div className="social-icons">
