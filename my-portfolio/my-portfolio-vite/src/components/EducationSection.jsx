@@ -32,7 +32,7 @@ I'm currently a second-year Software Engineering student focused on building a s
     <div className="edu-card fade-in">
       <div className="edu-header">
         <h3>Nejashi Academy</h3>
-        <span className="edu-date">2016 – 2023</span>
+        <span className="edu-date">2014 – 2023</span>
       </div>
       <p className="edu-degree">High School Diploma</p>
       <p className="edu-desc">
