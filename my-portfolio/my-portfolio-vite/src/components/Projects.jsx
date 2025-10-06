@@ -3,7 +3,7 @@ import "../styles/Projects.css";
 
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.jpg";
-import project3 from "../assets/project3.png";
+import project3 from "../assets/project3.jpg";
 import project4 from "../assets/project4.jpg";
 
 const projects = [
@@ -29,10 +29,10 @@ const projects = [
     img: project1,
   },
   {
-    title: "Ally-Net",
+    title: "CitizenSpeak",
     description:
-      "AllyNet is a digital platform developed for a hackathon to foster inclusion and community support. Built with collaboration in mind and aims to empower users through meaningful engagement.",
-    link: "https://github.com/ami798/She-Codes-Hackathon.git",
+      "CitizenSpeak is an ongoing project by a team of three, providing a secure platform for Ethiopian citizens to submit verified feedback or complaints, protecting privacy with partial Fayda ID and biometrics and enhancing public accountability.",
+    link: "https://drive.google.com/file/d/1qIWKXJrGAjvjBMgtTYaUAjYYCgksPlvp/view?usp=sharing",
     img: project3,
   },
 ];

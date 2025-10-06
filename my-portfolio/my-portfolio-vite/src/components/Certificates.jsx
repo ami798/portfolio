@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Certificates.css";
 
-// Import all certificate images
+// Import all your certificate images
 import cert1 from "../assets/certificates/codesoft.png";
 import cert2 from "../assets/certificates/hackathon.png";
 import cert3 from "../assets/certificates/Proffesional-foundations-alx.png";
@@ -12,31 +12,59 @@ import cert7 from "../assets/certificates/mesirat.png";
 import cert8 from "../assets/certificates/YALI-RLC-leadership.jpg";
 import cert9 from "../assets/certificates/winner-Q&A.jpg";
 import cert10 from "../assets/certificates/noble-character.jpg";
-import cert11 from "../assets/certificates/volunteer.jpg";
-import cert12 from "../assets/certificates/volunteer2.jpg";
-import cert13 from "../assets/certificates/HS-diploma.jpg";
-import cert14 from "../assets/certificates/appreciation.jpg";
-import cert15 from "../assets/certificates/leadership-workshop.jpg";
-import cert16 from "../assets/certificates/kibur-college.jpg";
-// Add all other certificates here
 
 function Certificates() {
-  // Array of all certificates (images)
-  const certificates = [cert1, cert2, cert3 ,cert4 , cert5 , cert6 , cert7 , cert8 , cert9 , cert10 , cert11 , cert12 , cert13 , cert14 , cert15 , cert16 ];  // Add all your certificates to this array
+  const certificates = [
+    { src: cert1, title: "Web Development - CodSoft" },
+    { src: cert2, title: "UNESCO Hackathon" },
+    { src: cert3, title: "Professional Foundations - ALX" },
+    { src: cert4, title: "DSA Track - GDG" },
+    { src: cert5, title: "Python Bootcamp" },
+    { src: cert6, title: "Data Analysis - Udacity" },
+    { src: cert7, title: "Business & Finance - Mesirat" },
+    { src: cert8, title: "Leadership - YALI" },
+    { src: cert9, title: "Q&A Winner" },
+    { src: cert10, title: "Noble Character Award" },
+  ];
+
+  const scrollLeft = () => {
+    document.querySelector(".certificates-carousel").scrollBy({
+      left: -350,
+      behavior: "smooth",
+    });
+  };
+
+  const scrollRight = () => {
+    document.querySelector(".certificates-carousel").scrollBy({
+      left: 350,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <section id="certificates" className="certificates-section">
+      <h2 className="certificates-title">Certificates & Achievements</h2>
+      <p className="certificates-subtitle">
+        Recognitions and awards from global platforms, hackathons, and leadership programs.
+      </p>
 
-      <h2 className="certificates-title">Certificates</h2>
-      <div className="certificates-grid">
-        {certificates.map((certificate, index) => (
-          <img
-            key={index}  // Important for rendering dynamically
-            src={certificate}
-            alt={`Certificate ${index + 1}`}
-            className="certificate-image"
-          />
-        ))}
+      <div className="certificates-wrapper">
+        <button className="scroll-btn left" onClick={scrollLeft}>
+          &#8592;
+        </button>
+
+        <div className="certificates-carousel">
+          {certificates.map((cert, index) => (
+            <div className="certificate-card" key={index}>
+              <img src={cert.src} alt={cert.title} className="certificate-image" />
+              <p className="certificate-title">{cert.title}</p>
+            </div>
+          ))}
+        </div>
+
+        <button className="scroll-btn right" onClick={scrollRight}>
+          &#8594;
+        </button>
       </div>
     </section>
   );
