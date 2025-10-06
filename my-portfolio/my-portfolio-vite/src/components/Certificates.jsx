@@ -2,29 +2,35 @@ import React from "react";
 import "../styles/Certificates.css";
 
 // Import all your certificate images
-import cert1 from "../assets/certificates/codesoft.png";
-import cert2 from "../assets/certificates/hackathon.png";
-import cert3 from "../assets/certificates/Proffesional-foundations-alx.png";
-import cert4 from "../assets/certificates/GDG-DSA.png";
-import cert5 from "../assets/certificates/python-bootcamp.png";
-import cert6 from "../assets/certificates/udacity-Data-analysis.png";
-import cert7 from "../assets/certificates/mesirat.png";
-import cert8 from "../assets/certificates/YALI-RLC-leadership.jpg";
-import cert9 from "../assets/certificates/winner-Q&A.jpg";
-import cert10 from "../assets/certificates/noble-character.jpg";
+import cert1 from "../assets/certificates/bewide_Tech.jpg";
+import cert2 from "../assets/certificates/cursor-hackathon.png";
+import cert3 from "../assets/certificates/GDG_Tech_Fest.png";
+import cert4 from "../assets/certificates/codesoft.png";
+import cert5 from "../assets/certificates/hackathon.png";
+import cert6 from "../assets/certificates/Proffesional-foundations-alx.png";
+import cert7 from "../assets/certificates/GDG-DSA.png";
+import cert8 from "../assets/certificates/python-bootcamp.png";
+import cert9 from "../assets/certificates/udacity-Data-analysis.png";
+import cert10 from "../assets/certificates/mesirat.png";
+import cert11 from "../assets/certificates/YALI-RLC-leadership.jpg";
+import cert12 from "../assets/certificates/winner-Q&A.jpg";
+import cert13 from "../assets/certificates/noble-character.jpg";
 
 function Certificates() {
   const certificates = [
-    { src: cert1, title: "Web Development - CodSoft" },
-    { src: cert2, title: "UNESCO Hackathon" },
-    { src: cert3, title: "Professional Foundations - ALX" },
-    { src: cert4, title: "DSA Track - GDG" },
-    { src: cert5, title: "Python Bootcamp" },
-    { src: cert6, title: "Data Analysis - Udacity" },
-    { src: cert7, title: "Business & Finance - Mesirat" },
-    { src: cert8, title: "Leadership - YALI" },
-    { src: cert9, title: "Q&A Winner" },
-    { src: cert10, title: "Noble Character Award" },
+    { src: cert1, title: "bewide Tech" },
+    { src: cert2, title: "cursor-hackathon" },
+    { src: cert3, title: "GDG_Tech_Fest" },
+    { src: cert4, title: "Web Development - CodSoft" },
+    { src: cert5, title: "UNESCO Hackathon" },
+    { src: cert6, title: "Professional Foundations - ALX" },
+    { src: cert7, title: "DSA Track - GDG" },
+    { src: cert8, title: "Python Bootcamp" },
+    { src: cert9, title: "Data Analysis - Udacity" },
+    { src: cert10, title: "Business & Finance - Mesirat" },
+    { src: cert11, title: "Leadership - YALI" },
+    { src: cert12, title: "Q&A Winner" },
+    { src: cert13, title: "Noble Character Award" },
   ];
 
   const scrollLeft = () => {

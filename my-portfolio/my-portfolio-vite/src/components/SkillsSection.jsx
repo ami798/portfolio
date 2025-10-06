@@ -3,14 +3,15 @@ import "./SkillsSection.css";
 
 const skills = [
   { name: "React", level: 90 },
-  { name: "JavaScript", level: 80 },
+  { name: "Django", level: 80 },
   { name: "MongoDB ", level: 80 },
-  { name: "HTML5 & CSS3", level: 95 },
+  { name: "HTML5 & CSS3", level: 100},
   { name: "Tailwind CSS", level: 90 },
   { name: "Figma", level: 95 },
   { name: "Python", level: 85 },
 { name: "Next.js", level: 80 },
-
+{ name: "DSA", level: 80 },
+{ name: "Adobe Illustrator and Photoshop", level: 95 },
   // Add more skills here as needed
 ];
 

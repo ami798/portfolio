@@ -92,11 +92,11 @@ function Projects() {
           </li>
           <li>
             <a
-              href="https://github.com/ami798/alx-airbnb-database.git"
+              href="https://t.me/zaya_craft"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Air-BNB DataBase
+              Zaya Craft-Telegram channel where I share my Graphics Works.
             </a>
           </li>
         </ul>
