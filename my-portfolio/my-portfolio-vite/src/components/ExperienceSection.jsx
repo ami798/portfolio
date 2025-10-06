@@ -40,12 +40,39 @@ const experiences = [
   },
 
   {
-    title: "Frontend Developer (Core Team)",
+    title: "Journalist",
+    org: "Muslim Students League",
+    date: "June 2025 – Present",
+    icon: <Code2 className="text-pink-500 w-6 h-6" />,
+    description:
+      "For about five months, I’ve studied Journalism, Digital Media, Islamic Psychology, Stage Leading and Literature, while also starting my professional journey, building skills in communication, creativity and storytelling."
+  },
+
+  {
+    title: "Website Development Trainer",
+    org: "Bewide-Technologies",
+    date: "June 2025 – September 2025",
+    icon: <Code2 className="text-pink-500 w-6 h-6" />,
+    description:
+      "I mentored Meweda School students in website development for 10 weeks, through a program organized by Bewide Technologies and Harun Media, helping them gain hands-on experience a rewarding experience for me as well."
+  },
+
+  
+  {
+    title: "Project Manager (Core Team)",
     org: "Proghubs - AASTU",
     date: "2024 – Present",
     icon: <Code2 className="text-pink-500 w-6 h-6" />,
     description:
       "Collaborated on projects aligned with company needs and developed websites for volunteer work."
+  },
+{
+  title: "Project Manager",
+    org: "Brana Software Solutions - Internship",
+    date: "June 2025 – September 2025",
+    icon: <Code2 className="text-pink-500 w-6 h-6" />,
+    description:
+      "Designed and implemented responsive UIs and handled web development using Next.js and Django. Created branding assets and custom logos, collaborated with teams to iterate on designs, and maintained documentation of design systems, user flows, and updates for smooth collaboration and scalability."
   },
 
   {
