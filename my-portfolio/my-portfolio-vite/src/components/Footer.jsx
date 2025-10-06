@@ -10,7 +10,7 @@ function Footer() {
           <a href="https://github.com/ami798" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          <a href="https://www.linkedin.com/in/amira-abdurahman-282704298/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/amira-abdurahman-bb7552374" target="_blank" rel="noopener noreferrer">
             LinkedIn
           </a>
           <a href="amiraabdurahman8@gmail.com">Email</a>

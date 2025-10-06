@@ -32,12 +32,12 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 1 }}
         >
-          Aspiring Full-stack developer | UI/UX Designer | Graphics Designer
+          Aspiring Full-stack developer | UI/UX Designer | Graphics Designer | Community Leader and Trainer 
         </motion.p>
 
         <div className="social-icons">
           <a href="https://t.me/amiprin7" target="_blank" rel="noopener noreferrer"><FaTelegramPlane /></a>
-          <a href="https://www.linkedin.com/in/amira-abdurahman-282704298/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://www.linkedin.com/in/amira-abdurahman-bb7552374" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           <a href="https://www.instagram.com/amiprin7" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
           <a href="https://x.com/amiprin7" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
           <a href="https://github.com/ami798" target="_blank" rel="noopener noreferrer"><FaGithub /></a>

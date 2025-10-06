@@ -2,30 +2,30 @@ import React from "react";
 import "../styles/Projects.css";
 
 import project1 from "../assets/project1.png";
-import project2 from "../assets/project2.png";
+import project2 from "../assets/project2.jpg";
 import project3 from "../assets/project3.png";
-import project4 from "../assets/project4.png";
+import project4 from "../assets/project4.jpg";
 
 const projects = [
   {
-    title: "Chocolate-Bliss",
+    title: "Echofy",
     description:
-      "A modern, responsive web application for a cake cafe featuring a beautiful UI, interactive search functionality and smooth animations. Built with vanilla JavaScript and Tailwind CSS.",
-    link: "https://github.com/ami798/Chocolate-Bliss",
+      "Echofy  a Chrome extension developed for the UNESCO Hackathon. It analyzes web content to detect AI-generated or misleading information and promotes media literacy through real-time feedback and educational tips. Currently being refined for public release.",
+    link: "https://drive.google.com/file/d/1CpkuNGPktclIwbZTOfWMKsJo2GDDJQ89/view?usp=sharing",
     img: project2,
   },
   {
-    title: "Restaurant App",
+    title: "Food Bridge",
     description:
-      "A simple front-end web app for the Little Lemon Restaurant. Built using React, Vite and React Router.",
-    link: "https://github.com/ami798/Little-Lemon-App.git",
+      "Food Bridge — a project built during the Cursor Hackathon to connect restaurants, donors and communities in reducing food waste.I led the team from concept to execution, and we proudly secured 4th place in the competition.",
+    link: "https://github.com/Team-cursor5",
     img: project4,
   },
   {
-    title: "Mela Software",
+    title: "FindMeNow",
     description:
-      "A visually engaging landing page designed for Mela Software. Built with HTML, Tailwind CSS, and JavaScript. It features scroll effects, testimonials, and highlights product features.",
-    link: "https://github.com/ami798/web-contest.git",
+      "FindMeNow is a community-driven web platform that helps find missing persons faster through verified reports and real-time updates.Built live in under 4 hours during a competition and I won! 🏆Public release coming soon demo & details below.",
+    link: "https://cursor-live-competition.vercel.app/",
     img: project1,
   },
   {
