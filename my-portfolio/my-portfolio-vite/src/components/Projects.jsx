@@ -69,16 +69,16 @@ function Projects() {
           >
             GitHub
           </a>{" "}
-          for more projects.
+          for more and ongoing projects.
         </p>
         <ul>
           <li>
             <a
-              href="https://github.com/ami798/portfolio.git"
+              href="https://github.com/bella-247/Pdf-to-Website.git"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Personal Portfolio Website
+              Portafy Website
             </a>
           </li>
           <li>
